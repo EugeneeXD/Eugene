@@ -217,7 +217,7 @@ public class Login extends javax.swing.JFrame {
             // Add username-password pair to credentials
             credentials.put(username, password);
             // Set initial balance for the new account
-            balances.put(username, 5000.0);
+            balances.put(username, 0.0);
             JOptionPane.showMessageDialog(null, "Account created successfully!");
         }
     }                                      
