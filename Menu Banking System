@@ -153,7 +153,7 @@ private HashMap<String, Double> balances;
        // Check if the username exists in the balances HashMap
         if (balances.containsKey(username)) {
             double balance = balances.get(username);
-            JOptionPane.showMessageDialog(null, "Balance for " + username + ": $" + balance);
+            JOptionPane.showMessageDialog(null, "Balance for " + username + ": ₱" + balance);
         } else {
             JOptionPane.showMessageDialog(null, "No balance found for " + username);
         }
@@ -202,7 +202,7 @@ private HashMap<String, Double> balances;
         balances.put(username, newBalance);
         
         // Display a message to inform the user about the successful withdrawal
-        JOptionPane.showMessageDialog(null, "Withdrawal successful! Your new balance is: $" + newBalance);
+        JOptionPane.showMessageDialog(null, "Withdrawal successful! Your new balance is: ₱" + newBalance);
     } else {
         JOptionPane.showMessageDialog(null, "No balance found for " + username);
     }
@@ -244,7 +244,7 @@ private HashMap<String, Double> balances;
         balances.put(username, newBalance);
         
         // Display a message to inform the user about the successful deposit
-        JOptionPane.showMessageDialog(null, "Deposit successful! Your new balance is: $" + newBalance);
+        JOptionPane.showMessageDialog(null, "Deposit successful! Your new balance is: ₱" + newBalance);
     } else {
         JOptionPane.showMessageDialog(null, "No balance found for " + username);
     }
@@ -302,7 +302,7 @@ private HashMap<String, Double> balances;
     balances.put(username, newBalance);
     
     // Display a message to inform the user about the successful transfer
-    JOptionPane.showMessageDialog(null, "Transfer successful! Your new balance is: $" + newBalance);
+    JOptionPane.showMessageDialog(null, "Transfer successful! Your new balance is: ₱" + newBalance);
 } else {
     JOptionPane.showMessageDialog(null, "No balance found for " + username);
 }
