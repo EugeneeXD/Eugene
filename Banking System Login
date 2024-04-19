@@ -160,7 +160,7 @@ public class Login extends javax.swing.JFrame {
         
         // Check if username or password is empty
         if (username.isEmpty() || password.isEmpty()) {
-            JOptionPane.showMessageDialog(null, "Username or password cannot be empty. (CREATE ONE FIRST, if you dont have an account.)\n *JUST TYPE ANYTHING IN THE USERNAME & PASSWORD THEN PRESS CREATE ACCOUNT*\n *ACCOUNT WILL BE SAVED*");
+            JOptionPane.showMessageDialog(null, "Username or password cannot be empty. (Create account first, if you dont have an account.)\n *You can just type anything on the username and password, to confirm just click create account*");
             return;
         }
         
@@ -178,7 +178,7 @@ public class Login extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "Incorrect password!");
             }
         } else {
-            JOptionPane.showMessageDialog(null, "Account does not exist.\n *JUST TYPE ANYTHING IN THE USERNAME & PASSWORD THEN PRESS CREATE ACCOUNT*\n *ACCOUNT WILL BE SAVED*");
+            JOptionPane.showMessageDialog(null, "Account does not exist.\n *You can just type anything on the username and password, to confirm just click create account*");
         }
     //GEN-LAST:event_loginbtnActionPerformed
     }                                      
