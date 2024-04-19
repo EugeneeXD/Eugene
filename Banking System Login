@@ -178,7 +178,7 @@ public class Login extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "Incorrect password!");
             }
         } else {
-            JOptionPane.showMessageDialog(null, "Account does not exist.(CREATE ONE FIRST.)\n *JUST TYPE ANYTHING IN THE USERNAME & PASSWORD THEN PRESS CREATE ACCOUNT*\n *ACCOUNT WILL BE SAVED*");
+            JOptionPane.showMessageDialog(null, "Account does not exist.\n *JUST TYPE ANYTHING IN THE USERNAME & PASSWORD THEN PRESS CREATE ACCOUNT*\n *ACCOUNT WILL BE SAVED*");
         }
     //GEN-LAST:event_loginbtnActionPerformed
     }                                      
